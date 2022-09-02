@@ -20,7 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/New_BM" element={<BMmusic></BMmusic>} />
+        <Route path="/" element={<BMmusic></BMmusic>} />
         <Route path="/bmjewel" element={<BMjewel></BMjewel>} />
         <Route path="/bmmega" element={<BMmega></BMmega>} />
         <Route path="/bmgalaxy" element={<BMgalaxy></BMgalaxy>} />
