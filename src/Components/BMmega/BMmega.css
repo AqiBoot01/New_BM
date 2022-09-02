@@ -1,0 +1,332 @@
+.BMmega{
+    /* background: linear-gradient(to top, #110225cf , #180331); */
+    background: linear-gradient(120deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+    transition: .5s;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 5rem;
+    position: absolute;
+    overflow: hidden;
+    max-width: 100%;
+    z-index: -1;
+
+}
+
+
+
+
+
+
+
+
+
+.Mega_text{
+    color: white;
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.Mega_box_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.box_1{
+    width: 40%;
+}
+.box_1 img{
+    width: 100%;
+}
+
+.box_2{
+    width: 50%;
+}
+
+.para_style{
+    color:white;
+    border: 1px solid rgba(255, 255, 255, 0.114);
+    padding: 0 2rem;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.053);
+    line-height: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+
+.multiple_queen{
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    
+}
+
+.multiple_queen img{
+    width: 140%;
+}
+
+
+.mega_text_2{
+    width: 70%;
+    margin: 0 auto;
+    /* padding: rem; */
+}
+.mega_text_2 .para_style{
+    padding: 2rem 3rem;
+}
+
+
+.antverse{
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+    letter-spacing: 7px;
+    font-weight: 300;
+    margin-top: 6rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+}
+.antverse .ant{
+    color: #FF6000;
+}
+
+
+
+.mega_text_3{
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+
+.Mega_box_2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.Mega_box_2 .box_1 video{
+    border-radius: 10%;
+    width: 95%;
+    /* animation: rotating 5s linear infinite; */
+
+
+}
+
+
+@keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotateY(0deg);
+    }
+    to {
+      -ms-transform: rotateY(360deg);
+      -moz-transform: rotateY(360deg);
+      -webkit-transform: rotateY(360deg);
+      -o-transform: rotateY(360deg);
+      transform: rotateY(360deg);
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+  }
+
+
+.Mega_box_2 .box_2{
+    width: 40%;
+    margin: 0 4rem;
+    padding: 3rem;
+}
+
+.Mega_box_2 .box_2 p{
+    line-height: 35px;
+}
+
+.mega_big{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-top: 7rem;
+    /* font-weight: 300; */
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+}
+
+.Anton{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    /* border: 2px solid white; */
+    
+}
+
+.Anton img{
+    width: 100%;
+}
+
+
+.Mega_box_3{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6rem;
+
+}
+
+.Mega_box_3 .box_1 img{
+    width: 80%;
+    /* margin: 0 2rem; */
+    margin-left: 4rem;
+}
+
+.Mega_box_3 .box_2{
+    width: 50%;
+    /* line-height: 2.5rem; */
+
+}
+
+.box_text{
+    color: white;
+    padding: 0 3rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+.mega_medium{
+
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 6rem;
+    letter-spacing: 3px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+
+.Mega_box_4{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.Mega_box_4  .box_1{
+    width: 50%;
+}
+
+.Mega_box_4 .box_2{
+    width: 30%;
+}
+
+.Mega_box_4 .box_2 .box_text{
+    white-space: nowrap;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+.Mega_box_5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.Mega_box_5 .box_1{
+    width: 40%;
+}
+
+.Mega_box_5 .box_2{
+    width: 50%;
+}
+
+.Mega_box_5 .box_1 img{
+    width: 80%;
+}
+
+
+.gade{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.gade img{
+    width: 100%;
+
+}
+
+
+.mega_special .para_style{
+    line-height: 30px;
+    margin-top: -2rem;
+}
+
+
+.megalast{
+    width: 70%;
+    margin: 6rem auto;
+    /* margin-top: 6rem; */
+    /* border: 2px solid white; */
+
+    
+}
+
+.megalast img{
+    width: 100%;
+}
+
+
+
+
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+/* @keyframes rotation {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+} */

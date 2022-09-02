@@ -1,0 +1,81 @@
+.Navigation{
+
+    margin: 0px; 
+    padding: 0rem  1rem;
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.Nav_image{
+    width: 33%;
+    /* text-align: center; */
+}
+.Nav_image img{
+    /* width: 60%; */
+}
+
+.Nav_text{
+    color: white;
+    text-align: center;
+    width: 33%;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+
+.Nav_button{
+    width: 33%;
+    /* box-sizing: border-box; */
+    text-align: right;
+}
+
+.Nav_button a{
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 2rem;
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 10px;
+    background: linear-gradient(to top , rgba(75, 75, 75, 0.655) , rgba(177, 176, 176, 0.178));
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: color 0.5s;
+
+
+}
+
+.Nav_button a:hover{
+    background: linear-gradient(to top , rgba(58, 58, 58, 0.693) , rgba(126, 125, 125, 0.178));
+    /* font-size: 1.6rem; */
+    color: rgb(212, 73, 96);
+
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+    
+    .Nav_image img{
+        width: 30%;
+    }
+
+    .Nav_text{
+        font-size: 1.3rem;
+    }
+
+    .Nav_button a{
+        font-size: 0.9rem;
+        padding: 0.3rem 0.9rem;
+
+    }
+ 
+   }

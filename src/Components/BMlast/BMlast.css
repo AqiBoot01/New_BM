@@ -1,0 +1,140 @@
+.BMlast{
+    background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+    transition: .5s;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 5rem;
+    overflow: hidden;
+    max-width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.last_div{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.426) , black);
+    width: 80%;
+    /* position: absolute; */
+    color: white;
+    margin: 0 auto;
+    height: auto;
+    padding: 4rem 0;
+    margin-top: 6rem;
+    box-shadow: 0px 0px 10px 10px rgba(216, 214, 214, 0.018);
+    /* border: 3px solid gray; */
+    border-radius: 20px;
+}
+
+
+.last_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.last_main_img{
+    width: 35%;
+    pad: 2rem;
+}
+
+
+.last_main_img video{
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+.last_main_content{
+    /* border: 2px solid white; */
+    width: 70%;
+    margin-left: 1rem;
+    /* padding: 3rem; */
+}
+
+.content_heading{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: -1rem;
+    margin-top: 0;
+}
+
+.content_discription{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+
+
+
+.content_steps{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+
+    border: 2px solid black;
+}
+
+.step{
+    border: 2px solid rgba(31, 30, 30, 0.511);
+    background-color: rgba(17, 17, 17, 0.088);
+    width: 27%;
+    border-radius: 20px;
+    padding: 1rem 0;
+    padding-left: 1rem;
+}
+
+.step h3{
+    font-size: 2rem;
+    margin: 0 auto;;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    /* margin-bottom: -0.5rem; */
+    /* padding:  0 1rem; */
+    /* text-align: center; */
+}
+.step h4{
+    margin: 0 auto;
+    /* text-align: center; */
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.step p{
+    font-size: 0.8rem;
+    /* text-align: center; */
+    width: 95%;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    word-spacing: 2px;
+    /* margin: 0 auto; */
+}
+.content_text{
+    border: 2px solid rgba(255, 255, 255, 0.733);
+    background-color: rgba(255, 255, 255, 0.101);
+    border-radius: 20px;
+    width: 25%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    
+}
+
+.social_media{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.media{
+    margin: 0 0.5rem;
+}

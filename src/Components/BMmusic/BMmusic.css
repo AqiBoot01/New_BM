@@ -1,0 +1,124 @@
+.BMmusic{
+    /* background: linear-gradient(to top, #1001238f , #110322f7); */
+    background: linear-gradient(120deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+    transition: .5s;
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+    height: 200vh;
+    padding-bottom: 5rem;
+    z-index: -1;
+
+}
+
+.main_section::before {
+    content: '';
+    /* position: relative; */
+    /* background-attachment: fixed; */
+    top: 27.5%;
+    width: 300px;
+    z-index: 0;
+    height: 300px;
+    border-radius: 100%;
+    position: fixed;
+    z-index: -1;
+    content: '';;
+    left: 18.9%;
+    background-color: rgba(204, 0, 255, 0.744);
+    filter: blur(150px);
+    /* filter: opacity(0.8); */
+    opacity: 0.8;
+  }
+
+  .main_section::after {
+    content: '';
+    /* position: relative; */
+    /* background-attachment: fixed; */
+    top: 53.5%;
+    width: 300px;
+    z-index: 0;
+    height: 300px;
+    border-radius: 100%;
+    position: fixed;
+    z-index: -1;
+    content: '';;
+    left: 53.9%;
+    background-color: rgba(204, 0, 255, 0.744);
+    filter: blur(170px);
+    opacity: 0.8;
+  }
+
+
+
+
+.main_section{
+    z-index: 10;
+    /* position: absolute; */
+}
+
+
+.identity{
+    color: white;
+    width: 30%;
+    margin: 0 auto;
+    letter-spacing: 4px;
+    margin-top: -3rem;
+    /* margin-right: rem; */
+    margin-left: 49%;
+    font-size: 2rem;
+    margin-right: 44%;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+.glow_box{
+    background-color: rgba(252, 245, 245, 0.06);
+    /* position: fixed; */
+    height: 100vh;
+    width: 100%;
+    /* z-index: -1; */
+  }
+  
+  .glow_1{
+    position: absolute;
+    opacity: 0.5;
+    top: 50%;
+    left: 30%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(171, 132, 178, 0.874);
+    box-shadow:
+      0 0 600px 200px rgba(218, 161, 228, 0.874),  /* inner white */
+      0 0 100px 60px rgb(237, 142, 237), /* middle magenta */
+      0 0 140px 90px rgb(230, 155, 255); /* outer cyan */
+  }
+
+  .glow_2{
+    position: absolute;
+    opacity: 0.4;
+    top: 60%;
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(219, 130, 234, 0.874);
+    box-shadow:
+      0 0 600px 20px rgba(222, 155, 234, 0.874),  /* inner white */
+      0 0 100px 60px rgb(232, 113, 232), /* middle magenta */
+      0 0 140px 90px rgb(187, 132, 205); /* outer cyan */
+  }
+
+  
+  /* div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+  } */

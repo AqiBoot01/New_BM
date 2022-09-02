@@ -1,0 +1,39 @@
+.Nav_links{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* background-color: green; */
+    /* flex-wrap: wrap; */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.437);
+
+
+}
+
+.Nav_links a{
+    text-decoration: none;
+    color: white;
+
+    font-family: 'Rajdhani', sans-serif;
+    margin: 2rem  auto;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    /* font-size: 0.8rem; */
+    border: 2px solid rgba(255, 255, 255, 0.533);
+    letter-spacing: 2px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(255, 255, 255, 0.101) , rgba(255, 255, 255, 0.211));
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+    
+   .Nav_links a{
+    font-size: 0.4rem;
+    padding: 0.5rem 0.7rem;
+   }
+
+  }
